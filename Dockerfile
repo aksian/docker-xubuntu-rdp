@@ -1,7 +1,7 @@
 FROM danielguerra/ubuntu-xrdp:18.04
 MAINTAINER Andrei Terentiev <andrei@terentiev.org>
 
-WORKDIR /home/ubuntu
+WORKDIR /root
 
 RUN apt-get update
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -yy apt-utils aptitude
